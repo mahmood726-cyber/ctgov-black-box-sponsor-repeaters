@@ -1,0 +1,96 @@
+{
+  "title": "CT.gov Black-Box Sponsor Repeaters",
+  "slug": "ctgov-black-box-sponsor-repeaters",
+  "author": "Mahmood Ahmad",
+  "date": "2026-03-29",
+  "body": "Which named sponsors dominate the CT.gov black-box subset where older studies have no results, no linked paper, and no detailed description? We analysed 249,507 eligible older closed interventional studies from the March 29, 2026 full-registry snapshot. Using the wave-nine sponsor watchlist, we ranked named sponsors by black-box stock and black-box rate, then compared that table with no-results and ghost counts. Boehringer Ingelheim carried the largest named black-box stock at 755 studies, followed by GlaxoSmithKline at 579 and Pfizer at 539. Bayer was the sharper large-sponsor outlier on rate at 48.1 percent, while several top black-box repeaters were industry portfolios with hundreds of missing-results studies. The named black-box table therefore makes the industry deep-silence problem much more visible than the broader sponsor stock tables do, especially across major drug-company portfolios overall. Black-box status is a registry-page visibility definition and should not be read as proof that a sponsor produced no documentation or dissemination outside linked CT.gov fields.",
+  "word_count": 156,
+  "sentence_count": 7,
+  "sentences": [
+    {
+      "role": "Question",
+      "text": "Which named sponsors dominate the CT.gov black-box subset where older studies have no results, no linked paper, and no detailed description?"
+    },
+    {
+      "role": "Dataset",
+      "text": "We analysed 249,507 eligible older closed interventional studies from the March 29, 2026 full-registry snapshot."
+    },
+    {
+      "role": "Method",
+      "text": "Using the wave-nine sponsor watchlist, we ranked named sponsors by black-box stock and black-box rate, then compared that table with no-results and ghost counts."
+    },
+    {
+      "role": "Primary result",
+      "text": "Boehringer Ingelheim carried the largest named black-box stock at 755 studies, followed by GlaxoSmithKline at 579 and Pfizer at 539."
+    },
+    {
+      "role": "Secondary result",
+      "text": "Bayer was the sharper large-sponsor outlier on rate at 48.1 percent, while several top black-box repeaters were industry portfolios with hundreds of missing-results studies."
+    },
+    {
+      "role": "Interpretation",
+      "text": "The named black-box table therefore makes the industry deep-silence problem much more visible than the broader sponsor stock tables do, especially across major drug-company portfolios overall."
+    },
+    {
+      "role": "Boundary",
+      "text": "Black-box status is a registry-page visibility definition and should not be read as proof that a sponsor produced no documentation or dissemination outside linked CT.gov fields."
+    }
+  ],
+  "notes": {
+    "app": "CT.gov Black-Box Sponsor Repeaters dashboard",
+    "data": "249,507 eligible older closed interventional studies with named-sponsor black-box watchlists derived from the wave-nine sponsor table",
+    "code": "https://github.com/mahmood726-cyber/ctgov-black-box-sponsor-repeaters",
+    "doi": "",
+    "version": "1.0.0",
+    "date": "2026-03-29",
+    "validation": "FULL REGISTRY RUN"
+  },
+  "type": "methods",
+  "primary_estimand": "Black-box stock and rate among named lead sponsors in the older-study CT.gov universe",
+  "validation": {
+    "status": "fail",
+    "checks": [
+      {
+        "name": "single paragraph",
+        "ok": true,
+        "detail": "Body must not contain blank-line paragraph breaks."
+      },
+      {
+        "name": "sentence count",
+        "ok": true,
+        "detail": "Found 7 sentences."
+      },
+      {
+        "name": "word count",
+        "ok": true,
+        "detail": "Found 156 words."
+      },
+      {
+        "name": "no headings",
+        "ok": true,
+        "detail": "No markdown headings allowed in body."
+      },
+      {
+        "name": "no links",
+        "ok": true,
+        "detail": "No links or DOI links allowed in body."
+      },
+      {
+        "name": "result sentence has interval",
+        "ok": true,
+        "detail": "Sentence 4 should include a quantitative result such as a percentage, count, or interval."
+      },
+      {
+        "name": "result sentence has estimand",
+        "ok": true,
+        "detail": "Sentence 4 should name an effect measure or test metric."
+      },
+      {
+        "name": "boundary sentence present",
+        "ok": false,
+        "detail": "Sentence 7 should express a limitation, harm, or scope boundary."
+      }
+    ]
+  },
+  "schema": "e156-v0.2"
+}
